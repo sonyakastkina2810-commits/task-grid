@@ -1,6 +1,12 @@
-html,
-body,
-#root {
-    height: 100%;
-    margin: 0;
+.container {
+    display: grid;
+    width: 700px;
+    height: 400px;
+    gap: 20px;
+    grid-template-rows: 1fr 200px 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container > * {
+    background-color: #DAA520;
 }
